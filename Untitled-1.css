@@ -1,0 +1,44 @@
+h1{
+text-align: center;
+color: rgb(255, 255, 255);
+text-decoration: underline;
+}
+
+body{
+
+    background-color: rgb(97, 54, 23);
+}
+
+img {
+width: 40%;
+margin: auto auto px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 5px;
+}
+
+.flex {
+height: 300px;
+transition: .5s;
+}
+
+img:hover{
+transform: scale(1.2);
+transition: .5s;
+z-index: 100;
+}
+
+p{
+text-align: center;
+color: rgb(255, 255, 255);
+text-decoration:double;
+text-transform: uppercase;
+    }
+
+div{   
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+
+}
