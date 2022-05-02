@@ -74,6 +74,12 @@ background-color: rgb(175, 209, 147);
 border: 1px solid black;
 }
 
+.card:hover{
+    transform: scale(1.2);
+    transition: .5s;
+    z-index: 100;
+}
+
 .navbar{
 display: flex;
 }
