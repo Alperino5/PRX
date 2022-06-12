@@ -1,0 +1,136 @@
+body {
+    background: #000000;
+    color: #000000;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+ul.slunečnísoustava {
+    position: relative;
+    height: 640px;
+    list-style: none;
+}
+ul.slunečnísoustava li {
+    text-indent: -9999px;
+    display: block;
+    position: absolute;
+    border: 2px solid #394057;
+}
+ul.slunečnísoustava li span {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ul.slunečnísoustava li.active {
+    border-color: #aa4200;
+}
+ul.slunečnísoustava li.active.slunce span,
+ul.slunečnísoustava li.active.Zeme .mesic {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+ul.slunečnísoustava li.slunce {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(248, 91, 0);
+    top: 302px;
+    left: 462px;
+    border: none;
+    -webkit-box-shadow: 0 0 50px #aa4200
+
+}
+ul.slunečnísoustava li.Merkur {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    border-radius: 52px;
+    top: 270px;
+    left: 430px;
+    z-index: 99;
+}
+ul.slunečnísoustava li.Merkur span {
+    background: #b6bac5;
+    top: 10px;
+    left: 10px;
+}
+ul.slunečnísoustava li.venus {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 82px;
+    -moz-border-radius: 82px;
+    border-radius: 82px;
+    top: 240px;
+    left: 400px;
+    z-index: 98;
+}
+ul.slunečnísoustava li.venus span {
+    background: #bf8639;
+    top: 118px;
+    left: 5px;
+}
+ul.slunečnísoustava li.Zeme {
+    width: 220px;
+    height: 220px;
+    -webkit-border-radius: 112px;
+    -moz-border-radius: 112px;
+    border-radius: 112px;
+    top: 210px;
+    left: 370px;
+    z-index: 97;
+}
+ul.slunečnísoustava li.Zeme span {
+    background: #06c;
+    top: 56px;
+    left: 5px;
+}
+ul.slunečnísoustava li.mars {
+    width: 280px;
+    height: 280px;
+    -webkit-border-radius: 142px;
+    -moz-border-radius: 142px;
+    border-radius: 142px;
+    top: 180px;
+    left: 340px;
+    z-index: 96;
+}
+ul.slunečnísoustava li.mars span {
+    background: #aa4200;
+    top: 0px;
+    left: 175px;
+}
+
+ul.slunečnísoustava li {
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+    -moz-animation-name:orbit;
+}
+ul.slunečnísoustava li.Zeme span {
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:linear;
+}
+ul.slunečnísoustava li.Merkur {-webkit-animation-duration:5s; -moz-animation-duration:5s;}
+ul.slunečnísoustava li.venus {-webkit-animation-duration:8s; -moz-animation-duration:8s;}
+ul.slunečnísoustava li.Zeme {-webkit-animation-duration:12s; -moz-animation-duration:12s;}
+ul.slunečnísoustava li.mars {-webkit-animation-duration:20s; -moz-animation-duration:20s;}
+ul.slunečnísoustava li.asteroids_meteorids {-webkit-animation-duration:50s; -moz-animation-duration:50s;}
+ul.slunečnísoustava li.jupiter {-webkit-animation-duration:30s; -moz-animation-duration:30s;}
+ul.slunečnísoustava li.saturn {-webkit-animation-duration:60s; -moz-animation-duration:60s;}
+ul.slunečnísoustava li.uranus {-webkit-animation-duration:70s; -moz-animation-duration:70s;}
+ul.slunečnísoustava li.neptune {-webkit-animation-duration:100s; -moz-animation-duration:100s;}
+@-webkit-keyframes orbit { from { -webkit-transform:rotate(0deg) } to { -webkit-transform:rotate(360deg) } }
+@-moz-keyframes orbit { from { -moz-transform:rotate(0deg) } to { -moz-transform:rotate(360deg) } }
