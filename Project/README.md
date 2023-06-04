@@ -1,8 +1,8 @@
 # FINÁLNÍ PROJEKT WAP
 
-Místo celkového projektu jsem se rozhodl dělat pouze frontend jako náhradu, nicméně je tam i menší script z javascriptu, což není nic tak světoborného
+Místo celkového projektu jsem se rozhodl dělat pouze frontend jako náhradu, nicméně je tam i menší script z javascriptu, což není nic světoborného.
 
-Stránka je dělána v angličtině, kromě mého jména.
+Stránka je dělána převážně v angličtině, kromě tedy jména, které je jediné české, respektive má diakritiku.
 
 Všechny obrázky jsou stáhnutelné z internetu, přímo ze zdrojů.
 
