@@ -8,7 +8,7 @@ Všechny obrázky jsou stáhnutelné z internetu, přímo ze zdrojů.
 
 Stránka pojednává o mých znalostech, projektech, tudíž takové mé portfolio.
 
-WEB je plně ressponzivní.
+WEB je plně responzivní.
 
 ### FUNKČNOST
 
