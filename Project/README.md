@@ -18,6 +18,5 @@ Pro správné fungování kódu je nutné stáhnout všechny soubory, tedy index
 
 ![WEB1](https://github.com/ItsAlper/HTML-CSS/assets/75456808/d7333035-82b3-4922-88e2-2e9139371647)
 
-![WEB2](https://github.com/ItsAlper/HTML-CSS/assets/75456808/df417fe2-24d0-42da-bdb5-38890ee48ce1)
+![WEB2](https://github.com/ItsAlper/HTML-CSS/assets/75456808/df417fe2-24d0-42da-bdb5-38890ee48ce1) ![vykon ukol](https://github.com/ItsAlper/HTML-CSS/assets/75456808/c5c63da4-5e13-43f0-9b83-64ba0143a235)
 
-![vykon ukol](https://github.com/ItsAlper/HTML-CSS/assets/75456808/c5c63da4-5e13-43f0-9b83-64ba0143a235)
